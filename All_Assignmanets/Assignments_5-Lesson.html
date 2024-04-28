@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+ <body>
+   <form method="get">
+       <label>Username</label>
+       <input type="text" placeholder="USERNAME" name="User" autofocus minlength="5" maxlength="10" required>
+       <hr>
+       <label>Email</label>
+       <input type="email" name="email" value="o@o.com" readonly>
+       <hr>
+       <label>Token</label>
+       <input type="text" value="b92f1fc2fce391ad7af633723afd3055" name="Token" hidden>
+       <hr>
+       <input type="checkbox" id="Prob" name="Skills" checked  value="Problem Solving" >
+       <label for="prob">Problem Solving</label>
+          <br>
+       <input type="checkbox" id="log" name="Skills" value="Logical Thinking">
+       <label for="log">Logical Thinking</label>
+<br>
+       <input type="checkbox"id="adv" name="Skills" value="Advanced Search" >
+       <label for="adv"> Advanced Search</label>
+<br>
+       <input type="checkbox"id="analy" name="Skills" value="Analysis">
+       <label for="analy">Analysis</label>
+<br>
+       <input type="checkbox"id="pla" name="Skills" value="Planning">
+       <label for="pla"> Planning</label>
+
+       <hr>
+       <input type="radio"id="FED"name="Job" checked value="Front-End Developer">
+       <label for="FED">Front-End Developer</label >
+       <br>
+       <input type="radio"id="BED"name="Job" value="Back-End Developer">
+       <label for="BED">Back-End Developer</label>
+       <br>
+       <input type="radio"id="BA"name="Job" value="Business Analyst">
+       <label for="BA">Business Analyst</label>
+       <br>
+       <input type="radio"id="PM"name="Job" value="Project Manager">
+       <label for="PM"> Project Manager</label>
+       <br>
+       <input type="radio"id="SM"name="Job" value="scrm Master">
+       <label for="SM">Scrum Master</label>
+       <hr>
+       <label for="progr">choose your progr :</label>
+       <select name="SELECTR" id="progr">
+        <option label="PHP">
+          <option value="v5">V5.0</option>
+          <option value="V7">V7.0</option>
+          <option value="V8">V8.0</option>
+        </option>
+        <option label="PYTHON">
+          <option value="v2">V2.0</option>
+          <option value="V3">V3.0</option>
+          <option value="V3">V3.9</option>
+        </option>
+      </select>
+      <hr>
+       <textarea name="Brief" placeholder=" Write Here Why You Want To Learn Programming" cols="40" rows="20"></textarea>
+       <br>
+       <hr>
+       <input type="reset" value="Empty">
+       <input type="submit" value="Send">
+   </form>
+   
+
+ </body>
+
+</html>
